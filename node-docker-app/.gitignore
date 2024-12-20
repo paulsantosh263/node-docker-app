@@ -1,0 +1,47 @@
+# Node.js dependencies
+/node_modules/
+
+# Build output
+/dist/
+/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+
+# Docker related files
+*.docker
+Dockerfile*
+docker-compose.yml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files (e.g., VS Code, IntelliJ, etc.)
+.vscode/
+.idea/
+
+# Environment files (make sure sensitive data is never in the repo)
+.env
+.env.local
+.env.*.local
+
+# Jenkins files (if you use the Jenkins workspace locally or for logs)
+jenkins/
+*.log
+
+# Testing outputs
+coverage/
+*.lcov
+
+# Ignore local config files
+local-config.json
+
+# Miscellaneous
+*.swp
+*.swo
