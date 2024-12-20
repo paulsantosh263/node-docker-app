@@ -1,0 +1,14 @@
+{
+  "name": "docker-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js app to demonstrate Docker and Jenkins integration",
+  "main": "app.js",
+ "scripts": {
+  "start": "node app.js"
+},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
